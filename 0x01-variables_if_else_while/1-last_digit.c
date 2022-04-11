@@ -2,6 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+ * Entry - main
+ *
+ * return correct
+ */
 int main(void)
 {
 int n;
