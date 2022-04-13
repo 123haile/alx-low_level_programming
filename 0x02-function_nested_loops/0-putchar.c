@@ -1,12 +1,21 @@
-#include <unistd.h>
+#include <main.h>
 
-/*_putchar -writes the char c to stdout
- * @c: the character to print
- *
- * Return: on success 1.
- * on error, -1 is returned, and errno is set appropriately.
- */
-int _putchar(char c)
+/**
+ * main - entry block
+ * @void: no argument
+ * Return: 0
+ * 
+ **/
+int main(void)
 {
-return (write(1, &c, _putchar));
+	char haile[] = "_putchar";
+
+	int c;
+
+	for (c = 0; c < 8; c++)
+	{
+	 -putchar(haile[c]);
+	}
+	_putchar('\n');
+	return (0);
 }
